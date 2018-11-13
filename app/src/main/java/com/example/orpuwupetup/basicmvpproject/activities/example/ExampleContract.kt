@@ -6,8 +6,14 @@ import com.example.orpuwupetup.basicmvpproject.activities.BaseView
 interface ExampleContract {
 
     // TODO add here View methods that Presenter will want to use
-    interface View: BaseView<Presenter>
+    interface View: BaseView<Presenter>{
+
+        fun showTopNotification()
+    }
 
     // TODO add here Presenter methods that View will want to use
-    interface Presenter: BasePresenter<View>
+    interface Presenter: BasePresenter<View>{
+
+        fun showNotificationButtonClicked()
+    }
 }

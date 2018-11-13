@@ -26,6 +26,10 @@ class ExamplePresenter @Inject constructor(
         makeRxJavaCallWithoutReturnValue()
     }
 
+    override fun showNotificationButtonClicked() {
+        view?.showTopNotification()
+    }
+
     private fun makeRxJavaCallWithoutReturnValue() {
         val newMyObject: MyObject = object : MyObject("object name"){}
 

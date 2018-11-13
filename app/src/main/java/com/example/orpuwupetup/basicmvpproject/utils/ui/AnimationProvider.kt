@@ -80,7 +80,7 @@ inline fun View.setAnimatedClick(crossinline doOnClick: () -> Unit, scaleSize: F
 }
 
 private fun getShowNotificationAnimation(view: View): ObjectAnimator {
-    val hideViewTopPosition = 1f - view.height
+    val hideViewTopPosition = 2f - view.height
     return ObjectAnimator.ofFloat(view, "translationY", if(view.y == hideViewTopPosition + view.height) 0f else -(hideViewTopPosition)).apply {
         duration = 140
     }
