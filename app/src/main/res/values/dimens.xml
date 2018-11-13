@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_design_smallest_font_size">12sp</dimen>
+    <dimen name="material_design_small_font_size">14sp</dimen>
+    <dimen name="material_design_medium_font_size">16sp</dimen>
+    <dimen name="material_design_large_font_size">24sp</dimen>
+    <dimen name="material_design_largest_font_size">36sp</dimen>
+
+    <dimen name="material_design_smallest_margin_size">8dp</dimen>
+    <dimen name="material_design_small_margin_size">12dp</dimen>
+    <dimen name="material_design_medium_margin_size">16dp</dimen>
+    <dimen name="material_design_medium_large_margin_size">24dp</dimen>
+    <dimen name="material_design_large_margin_size">36dp</dimen>
+    <dimen name="material_design_x_large_margin_size">56dp</dimen>
+    <dimen name="material_design_largest_margin_size">100dp</dimen>
+
+    <dimen name="material_design_smallest_padding">8dp</dimen>
+    <dimen name="material_design_small_padding">12dp</dimen>
+    <dimen name="material_design_medium_padding">16dp</dimen>
+
+</resources>
